@@ -1,0 +1,41 @@
+@import url("base.css");
+.Container {
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    grid-gap: 10px;
+    margin: 50px;
+    justify-content: center;
+}
+
+.Container a {
+    text-decoration: none;
+    color: white;
+}
+
+.Card a p {
+    overflow: hidden;
+}
+
+.Card a h3 {
+    overflow: hidden;
+}
+
+.Card {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 5px;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5px;
+    height: 255px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.CardImg {
+    border-radius: 5px;
+    width: 320px;
+    height: 180px;
+    margin: 0px
+}

@@ -1,0 +1,20 @@
+@import url("base.css");
+
+/* Styles for the hero banner */
+
+.hero-banner {
+    height: calc(100vh - 75px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    background: rgb(0, 31, 63);
+    background: radial-gradient(circle, rgba(0, 31, 63, 1) 0%, rgba(8, 51, 88, 1) 35%, rgba(0, 0, 0, 1) 100%);
+}
+
+.hero-banner img {
+    height: 300px;
+    width: 300px;
+}
