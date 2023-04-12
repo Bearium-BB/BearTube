@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="/../php/BearTube/Style/index.css">
+    <link rel="stylesheet" href="Style/index.css">
 </head>
 <html>
 	<body>	
