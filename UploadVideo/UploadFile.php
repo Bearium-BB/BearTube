@@ -4,10 +4,10 @@
 	<title>Create</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="/../php/BearTube/Style/UploadFile.css">
+	<link rel="stylesheet" type="text/css" href="Style/UploadFile.css">
 </head>
 <body>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/php/BearTube/Navbar.php'; ?>
+    <?php '/../Navbar.php'; ?>
 	<div class="Container">
 		<div class="Background-Card">
             <?php
@@ -37,7 +37,7 @@
                     </div>
             </form>';
             } else {
-                header("Location: /php/BearTube/Index.php",true,301);
+                header("Location: /../Index.php",true,301);
             }
             ?>
         </div>

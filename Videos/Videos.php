@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="/../php/BearTube/Style/Index.css?ver=1.0">
-    <link rel="stylesheet" href="/../php/BearTube/Style/videos.css?ver=1.0">
+    <link rel="stylesheet" href="/../Style/Index.css?ver=1.0">
+    <link rel="stylesheet" href="/../Style/videos.css?ver=1.0">
 
 </head>
 <html>
   <body>	
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/php/BearTube/Navbar.php'; ?>
+    <?php '/../Navbar.php'; ?>
       <?php
         include "../CD.php";
 
