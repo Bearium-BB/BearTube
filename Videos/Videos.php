@@ -6,7 +6,7 @@
 </head>
 <html>
   <body>	
-  <?php include '/../Navbar.php'; ?>
+  <?php include '/Navbar.php'; ?>
       <?php
       include "/../CD.php";
 
