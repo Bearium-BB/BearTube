@@ -1,7 +1,7 @@
 <?php session_start(); ?>
 <div class="nav-bar">
     <div class="nav-left">
-        <img id="the" src="Img/BearTube Logo.png" alt="Logo">
+        <img id="the" src="/Img/BearTube Logo.png" alt="Logo">
     </div>
     <div class="nav-middle">
         <a href="/Index.php">Home</a>
