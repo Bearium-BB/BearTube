@@ -9,16 +9,16 @@
         <a href="#">Contact</a>
         <?php
             if (isset($_SESSION['Username'])) {
-                echo '<a href="UploadVideo/UploadFile.php">Upload</a>';
+                echo '<a href="/../UploadVideo/UploadFile.php">Upload</a>';
             }  
         ?>
     </div>
     <div class="nav-right">
         <?php
             if (isset($_SESSION['loggedIn'])) {
-                echo '<a class="sign-in" href="AccountManager/AccountManager.php">Account Manager</a>';
+                echo '<a class="sign-in" href="/../AccountManager/AccountManager.php">Account Manager</a>';
             } else {
-                echo '<a class="sign-in" href="SignIn/SignIn.php">Sign In</a>';
+                echo '<a class="sign-in" href="/../SignIn/SignIn.php">Sign In</a>';
             }
         
         ?>
