@@ -4,8 +4,8 @@
         <img id="the" src="Img/BearTube Logo.png" alt="Logo">
     </div>
     <div class="nav-middle">
-        <a href="/php/BearTube/Index.php">Home</a>
-        <a href="/php/BearTube/Videos/Videos.php">Video</a>
+        <a href="/Index.php">Home</a>
+        <a href="/../Videos/Videos.php">Video</a>
         <a href="#">Contact</a>
         <?php
             if (isset($_SESSION['Username'])) {
