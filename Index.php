@@ -4,7 +4,7 @@
 </head>
 <html>
 	<body>	
-	<?php 'Navbar.php'; ?>
+	<?php include 'Navbar.php'; ?>
 
 		<div class="hero-banner">
 			<img src="Img/BearTube Logo.png" alt="">
