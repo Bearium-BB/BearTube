@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="Style/UploadFile.css">
 </head>
 <body>
-    <?php include '/../Navbar.php'; ?>
+    <?php include '/Navbar.php'; ?>
 	<div class="Container">
 		<div class="Background-Card">
             <?php

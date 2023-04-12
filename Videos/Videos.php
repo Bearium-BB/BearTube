@@ -6,9 +6,9 @@
 </head>
 <html>
   <body>	
-    <?php '/../Navbar.php'; ?>
+  <?php include '/Navbar.php'; ?>
       <?php
-        include "/../CD.php";
+      include "/../CD.php";
 
         $conn = ConnectToDatabase();
 
